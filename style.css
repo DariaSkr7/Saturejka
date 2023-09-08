@@ -3,9 +3,96 @@
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
+
 }
 
-h1,
+header {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
 h2 {
   font-family: 'Playfair Display', serif;
+
+}
+
+main {
+  background-color: white;
+  padding: 60px;
+  margin: 100px;
+
+}
+
+body {
+  padding: 50px;
+  background-color: lavenderblush;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  padding-right: 5%;
+}
+
+.menu-title {
+  text-align: center;
+}
+
+.dishes {
+  /* text-align: center; */
+
+}
+
+.text-root {
+  display: flex;
+  flex-direction: row;
+  /* padding-left: 10%;
+  padding-right: 10%; */
+
+}
+
+.text {
+  /* padding: 40px; */
+}
+
+footer {
+  text-align: center;
+}
+
+.tlacitko {
+  background-color: lavenderblush;
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 12px 16px;
+  border-radius: 100px;
+}
+
+.losos {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-left {
+  text-align: left;
+  margin: 50px;
+}
+
+.text-right {
+  text-align: right;
+  margin: 50px;
+
 }
